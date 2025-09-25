@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Ad box styles */
+.ad-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.ad-box img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.ad-close {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #888;
+}
+
+.ad-slot {
+  min-width: 180px;
+}
+
+/* Overlay ads */
+.overlay-ad {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  background: rgba(255,255,255,0.95);
+  padding: 12px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  display: none;
+  max-width: 250px;
+  z-index: 20;
+}
+
+/* Text ads */
+.text-ad {
+  background: #fff;
+  border-left: 4px solid #007bff;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.text-ad h6 {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+.text-ad p {
+  margin: 0 0 5px;
+  color: #333;
+}

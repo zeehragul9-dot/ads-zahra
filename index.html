@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ad-Supported Video Site</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+  <!-- Top Banner Ad -->
+  <div id="topAd" class="ad-slot"></div>
+
+  <div class="container my-3 d-flex">
+    <!-- Left Sidebar -->
+    <div id="leftAd" class="flex-shrink-0 ad-slot me-3"></div>
+
+    <!-- Main Video Section -->
+    <div class="flex-grow-1 position-relative">
+      <div class="video-wrapper">
+        <!-- Ad Video -->
+        <video id="adVideo" width="100%" style="display:none;">
+          <source src="ad.mp4" type="video/mp4">
+        </video>
+
+        <!-- Skip Button -->
+        <button id="skipAdBtn" class="btn btn-sm btn-danger"
+          style="display:none; position:absolute; top:10px; right:10px; z-index:10;">
+          Skip Ad
+        </button>
+
+        <!-- Main Video -->
+        <video id="mainVideo" width="100%" controls>
+          <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <!-- Overlay Ad -->
+        <div id="overlayAd" class="overlay-ad"></div>
+      </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div id="rightAd" class="flex-shrink-0 ad-slot ms-3"></div>
+  </div>
+
+  <!-- Bottom Banner Ad -->
+  <div id="bottomAd" class="ad-slot"></div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

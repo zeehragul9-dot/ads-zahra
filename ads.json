@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "type": "image",
+    "position": "left",
+    "content": "<img src='heels.jpg'><p>🔥 heels only $49!</p><a href='https://www.zara.com/in/en/woman-shoes-heeled-l1271.html' target='blank'><button class='btn btn-primary btn-sm'>Buy Now</button> </a>"
+  },
+  {
+    "id": 2,
+    "type": "banner",
+    "position": "top",
+    "content": "<h5>🔥 Laptop Sale – 50% OFF!</h5><a href='https://amazon.in/s?k=laptop+sale'><button class='btn btn-danger btn-sm' target='blank'>Shop Now</button></a>"
+  },
+  {
+    "id": 3,
+    "type": "image",
+    "position": "right",
+    "content": "<img src='telephone.jpg'><p>📱 Pre-order New Phone + Free Earbuds!</p><a href='https://www.apple.com/in/iphone/' target='blank'><button class='btn btn-success btn-sm'>Order</button> </a>"
+  },
+  {
+    "id": 4,
+    "type": "banner",
+    "position": "bottom",
+    "content": "<h5>🍕 Food Delivery – 30% OFF Tonight!</h5><a href='https://www.swiggy.com/city/delhi/fast-food-cuisine-order-online'><button class='btn btn-warning btn-sm' target='blank'>Order Now</button></a>"
+  },
+  {
+    "id": 5,
+    "type": "overlay",
+    "position": "overlay",
+    "content": "🚀 Learn Coding in 30 Days! <a href='https://www.nulondon.ac.uk/degrees/postgraduate/ai-computer-science/' target='blank'>Join Now</a>"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "position": "right",
+    "content": "<div class='text-ad'><h6>Sponsored</h6><p>📘 Learn JavaScript from scratch with interactive lessons.</p><a href='https://learnjavascript.online/' class='btn btn-link p-0' target='blank'>Start Free →</a></div>"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "position": "bottom",
+    "content": "<div class='text-ad'><h6>💼 Hiring Alert</h6><p>Top IT companies are hiring web developers. Apply now!</p><a href='https://careers.dexcom.com/careers/india' class='btn btn-outline-primary btn-sm' target='blank'>Apply Today</a></div>"
+  },
+  {
+    "id": 8,
+    "type": "banner",
+    "position": "top",
+    "content": "<h5 style='margin:0;'>🎧 New Headphones Release</h5><p style='margin:6px 0 0;'>Noise Cancelling + Wireless — <a href='https://www.amazon.in/s?k=headphones' class='btn btn-dark btn-sm' target='blank'>Check It Out</a></p>"
+  },
+  {
+    "id": 9,
+    "type": "image",
+    "position": "left",
+    "content": "<img src='food1.jpg' alt='Food'><p><strong>🍕 Order Pizza Now — Hot & Fresh!</strong></p><a href='https://www.swiggy.com/city/delhi/fast-food-cuisine-order-online' class='btn btn-warning btn-sm' target='blank'>Order Now</a>"
+  },
+  {
+    "id": 10,
+    "type": "overlay",
+    "position": "overlay",
+    "content": "<div style='font-weight:700; margin-bottom:6px;'>💳 Credit Card Offer</div><div style='margin-bottom:8px;'>0% Interest for 12 months + Bonus Points.</div><a href='https://www.sbicard.com/' class='btn btn-sm btn-primary' target='blank'>Apply Now</a>"
+  },
+  {
+    "id": 11,
+    "type": "banner",
+    "position": "bottom",
+    "content": "<h5 style='margin:0;'>🎵 Stream Unlimited Music</h5><p style='margin:6px 0 0;'>Join Musicify Premium for just $4.99/month <a href='https://www.spotify.com/in-en/premium/' class='btn btn-success btn-sm' target='blank'>Subscribe</a></p>"
+  },
+  {
+    "id": 12,
+    "type": "image",
+    "position": "right",
+    "content": "<img src='concert.webp' alt='Concert'><p><strong>🎤 Live Concert Tickets</strong></p><a href='https://www.viagogo.com/ww/Concert-Tickets/' class='btn btn-outline-danger btn-sm' target='blank'>Book Now</a>"
+  },
+  {
+    "id": 13,
+    "type": "overlay",
+    "position": "overlay",
+    "content": "<div style='font-weight:700; margin-bottom:6px;'>💿 Exclusive Album Release</div><div style='margin-bottom:8px;'>Pre-order the hottest new album today.</div><a href='https://www.kpopalbums.com/collections/pre-order-main' target='blank' class='btn btn-sm btn-danger'>Pre-order</a>"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "position": "left",
+    "content": "<div class='text-ad'><h6>Sponsored</h6><p>🎶 Learn Guitar Online — Free Trial Lessons!</p><a href='https://talentgum.com/courses/music/guitar-online-classes' class='btn btn-link p-0' target='blank'>Start Playing →</a></div>"
+  },
+  {
+    "id": 15,
+    "type": "banner",
+    "position": "top",
+    "content": "<h5 style='margin:0;'>📀 Sell Your Music Online</h5><p style='margin:6px 0 0;'>Distribute your songs to Spotify, Apple Music & more. <a href='https://muzartdisco.com/' class='btn btn-outline-info btn-sm' target='blank'>Get Started</a></p>"
+  },
+  {
+    "id": 16,
+    "type": "video",
+    "position": "preroll",
+    "src": "ad.mp4",
+    "skipTime": 5
+  },
+  {
+    "id": 17,
+    "type": "video",
+    "position": "midroll",
+    "src": "ad2.mp4",
+    "skipTime": 4
+  }
+]
