@@ -63,3 +63,10 @@ body {
   margin: 0 0 5px;
   color: #333;
 }
+.ad-box img {
+  max-width: 150px;   /* or 100% to make it flexible */
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 6px;
+}
